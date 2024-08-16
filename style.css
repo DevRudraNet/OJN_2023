@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width: 767.98px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: -500px;
+        transition: left 0.3s ease;
+        z-index: 1;
+        width: 230px;
+
+    }
+
+    #sidebar.active {
+        left: 0;
+        top: 55px;
+    }
+
+    .items-container {
+        margin-left: 0;
+    }
+}
+
+@media (max-width : 390px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: -500px;
+        transition: left 0.3s ease;
+        z-index: 1;
+        width: 230px;
+
+    }
+
+    #sidebar.active {
+        left: 0;
+        top: 55px;
+    }
+
+    .items-container {
+        margin-left: 0;
+    }
+}
+@media (max-width : 380px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: -500px;
+        transition: left 0.3s ease;
+        z-index: 1;
+        width: 230px;
+
+    }
+
+    #sidebar.active {
+        left: 0;
+        top: 85px;
+    }
+
+    .items-container {
+        margin-left: 0;
+    }
+}
+@media (max-width : 330px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: -500px;
+        transition: left 0.3s ease;
+        z-index: 1;
+        width: 230px;
+
+    }
+
+    #sidebar.active {
+        left: 0;
+        top: 135px;
+    }
+
+    .items-container {
+        margin-left: 0;
+    }
+}
+
+
+
+main {
+    overflow-y: auto; 
+}
+.box {
+    color: black; /* Set the font color to black */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Different background colors for each box */
+.box:nth-child(1) {
+    background-color: #ff9999; /* Light Red */
+}
+marquee {
+    color: red;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sidebar {
+    height: calc(100vh - 40px); /* Adjust the height as needed */
+    
+}
+.bi-balloon-heart-fill{
+    color: red;
+}
+.card {
+    margin: 10px;
+}
+.joinLinks1{
+     border: 1px solid rgb(221, 208, 206);
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.joinLinks2{
+      border: 1px solid rgb(221, 208, 206);
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.joinLinks3{
+     border: 1px solid rgb(221, 208, 206);
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.nav-link.disabled {
+    color: #999; /* You can use a different color for disabled links */
+    pointer-events: none; /* Disable pointer events on the link */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+    text-decoration: none; /* Remove underline or other decorations */
+}
+ .notificationMore{
+        border: 1px solid rgb(221, 208, 206);
+        margin: 10px;
+       
+       
+    }
+    .firstBoundry{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+    .secondBoundary{
+        padding: 10px;
+    }
+ #liveTime{
+        font-size: 24px;
+            font-weight: bold;
+            background-color:#f8f9fa;
+            padding: 5px;
+            border-radius: 10px;
+           
+           float: right;
+        }
+
